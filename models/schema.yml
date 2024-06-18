@@ -13,16 +13,13 @@ sources:
           - name: revenue
           - name: quantity
 
-  - name: product
-    tables:
+      
       - name: product
         identifier: raw_gz_product
         columns:
           - name: product_id
           - name: purchSE_PRICE
-
-  - name: ship
-    tables:
+    
       - name: ship
         identifier: raw_gz_ship
         columns:
