@@ -40,4 +40,75 @@ sources:
             description: Logistic cost
           - name: ship_cost
             description: Shipping cost
+      
+      - name : adwords
+        identifier : raw_gz_adwords
+        columns :
+          - name : date_date
+            description : date
+          - name : paid_source
+            description: source de revenue
+          - name : campaign_key
+            description: clé 
+          - name : camPGN_name
+            description: nom de la campagne
+          - name : ads_cost
+            description: cout pub
+          - name : impression
+            description: nombre impression
+          - name : click
+            description: nombre de click
+
+      - name : bing
+        identifier : raw_gz_bing
+        columns :
+          - name : date_date
+            description : date
+          - name : paid_source
+            description: source de revenue
+          - name : campaign_key
+            description: clé 
+          - name : camPGN_name
+            description: nom de la campagne
+          - name : ads_cost
+            description: cout pub
+          - name : impression
+            description: nombre impression
+          - name : click
+            description: nombre de click
+
+      - name : facebook
+        identifier : raw_gz_facebook
+        columns :
+          - name : date_date
+            description : date
+          - name : paid_source
+            description: source de revenue
+          - name : campaign_key
+            description: clé 
+          - name : camPGN_name
+            description: nom de la campagne
+          - name : ads_cost
+            description: cout pub
+          - name : impression
+            description: nombre impression
+          - name : click
+            description: nombre de click
         
+      - name : criteo
+        identifier : raw_gz_criteo
+        columns :
+          - name : date_date
+            description : date
+          - name : paid_source
+            description: source de revenue
+          - name : campaign_key
+            description: clé 
+          - name : camPGN_name
+            description: nom de la campagne
+          - name : ads_cost
+            description: cout pub
+          - name : impression
+            description: nombre impression
+          - name : click
+            description: nombre de click
