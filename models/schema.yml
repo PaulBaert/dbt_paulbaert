@@ -8,25 +8,36 @@ sources:
         identifier: raw_gz_sales
         columns:
           - name: date_date
+            description: Date of order
           - name: orders_id
+            description: Order ID
           - name: pdt_id
+            description: Product ID
           - name: revenue
+            description: Revenue
           - name: quantity
+            description: Quantity
+        
 
-      
       - name: product
         identifier: raw_gz_product
         columns:
           - name: product_id
+            description: Product ID
           - name: purchSE_PRICE
-    
+            description: Purchase price
+        
+
       - name: ship
         identifier: raw_gz_ship
         columns:
           - name: orders_id
+            description: Order ID
           - name: shipping_fee
+            description: Shipping fee
           - name: shipping_fee_1
           - name: logCost
+            description: Logistic cost
           - name: ship_cost
-
-  
+            description: Shipping cost
+        
